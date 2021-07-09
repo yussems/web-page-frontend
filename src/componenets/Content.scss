@@ -1,0 +1,62 @@
+.packages {
+    display: flex;
+    margin: 0 -20px;
+    transition: 400ms box-shadow ease-in-out;
+    
+    .package{
+        flex: 1;
+        margin: 0 20px;
+        background-color: #fff;
+        padding: 45px;
+        color:#171922 ;
+        font-weight: bold;
+        h6{
+            margin-bottom: 35px ;
+            font-size: 26px;
+            font-weight: bold;
+       
+        }
+        .price-info {
+            .price {
+                font-size: 22px;
+                font-weight: bold;
+                margin-bottom: 10px;
+                color :#171922
+            }
+            .description {
+                font-size: 18px;
+                opacity: .71;
+
+            }
+            p {
+                font-size: 16px;
+                opacity: .71;
+                font-weight: 500;
+                line-height: 25px;
+                margin-bottom: 35px;
+            }
+            .button {
+                height: 60px;
+                display: grid;
+                width: 100%;
+                place-items: center;
+                border: 1px solid #171922;
+                border-radius: 5px;
+                font-size: 16px;
+                font-weight: 600;
+                color: #171922;
+    
+
+               
+
+            }
+        }
+        &:hover {
+            box-shadow: 0 19px 50px -30px rgba(#8693a4,.74);
+            .button {
+                background-color:#171922 ;
+                color: #fff;
+            }
+        }
+    }
+}
